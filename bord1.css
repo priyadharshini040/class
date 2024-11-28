@@ -1,0 +1,25 @@
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bitmap{
+    width:350px;
+    margin: 30px;
+    padding: 20px;
+    height:400px ;
+  }
+  
+  .br1{
+   border: 30px solid orange;
+   border-image:
+    url("https://www.aperfectworld.org/clipart/borders/borders13f..gif")
+        100 /                    /* slice */
+        20px 18px 18px 20px /    /* width */
+        18px 14px 9px 10px       /* outset */
+        round;  
+  }
+  .bitmap img{
+    width:250px ;
+    height:300px ;
+  }

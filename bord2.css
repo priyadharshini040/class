@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.br2{
+    border: 30px solid orange;
+  border-image:
+   url("https://img00.deviantart.net/feb2/i/2008/309/e/5/border_lineart_8_by_inspyretash_stock.jpg")
+       100 /                    /* slice */
+       20px 18px 18px 20px /    /* width */
+       18px 14px 9px 10px       /* outset */
+       round;    
+ }
+ .bitmap{
+    width:350px;
+    margin: 30px;
+    padding: 20px;
+    height:400px ;
+  }
+.bitmap img{
+    width:250px ;
+    height:300px ;
+}

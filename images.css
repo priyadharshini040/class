@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    font-size:60px;
+    padding:15px ;
+    color:blue ;
+}
+.image{
+    width:1200px;
+    height:350px;
+    border: 1px solid black;
+    background-image: url('https://www.dl.dropboxusercontent.com/s/ix2mysp7tnnfzoi/penguin.png');
+    position: fixed;
+    
+  }
+  .image1{
+    width:480px;
+    height:320px;
+    border: 1px solid black;
+    background-image: url('https://www.dl.dropboxusercontent.com/s/ix2mysp7tnnfzoi/penguin.png');
+    background-color:blue;
+
+  }
